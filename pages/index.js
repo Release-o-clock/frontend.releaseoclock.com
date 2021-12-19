@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Release o'clock</title>
+        <title>Release o&apos;clock</title>
         <meta name="description" content="Release o'clock website" />
       </Head>
 
@@ -21,7 +21,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p>Powered by Release o'clock</p>
+        <p>Powered by Release o&apos;clock</p>
       </footer>
     </div>
   )
