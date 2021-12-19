@@ -9,7 +9,7 @@ const Navigation = () => {
                 <Navbar.Collapse id="navmenu">
                     <Nav className="ms-auto py-3">
                         <NavItem>
-                            <NavLink href="#test1">Test 1</NavLink>
+                            <NavLink href="/about">About</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="#test2">Test 2</NavLink>
