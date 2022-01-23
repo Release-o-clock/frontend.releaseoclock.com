@@ -1,0 +1,8 @@
+$enable-shadows: true;
+
+$body-color:  #333;
+$body-bg: hsl(0, 0%, 95%);
+
+$font-family-base: "Georgia";
+
+@import '../scss/bootstrap.scss';
