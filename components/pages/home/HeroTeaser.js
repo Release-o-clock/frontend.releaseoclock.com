@@ -16,7 +16,7 @@ const HeroTeaser = () => {
                         <Button variant="primary" size="lg">Start the enrollment</Button>
                     </div>
 
-                    <Image className="img-fluid d-none d-lg-block" src="/profile.png" alt="test" />
+                    {/* <Image className="img-fluid d-none d-lg-block" src="/profile.png" alt="test" /> */}
                 </div>
             </Container>
         </section>
