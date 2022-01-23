@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap"
 import Navigation from "./Navigation"
 
-const Layout = ({children}) => {
+const Layout = ({children, global}) => {
     return (
         <>
-        <Navigation/>
+        <Navigation global={global}/>
             <main>
                 {children}
             </main>

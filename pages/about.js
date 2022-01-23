@@ -1,5 +1,7 @@
+import HeroTeaser from "../components/pages/home/HeroTeaser"
+
 export default function About() {
   return (
-      <h1>About</h1>
+    <HeroTeaser />
   )
 }

@@ -1,10 +1,10 @@
 import { Navbar, NavLink, NavItem, Container, Nav } from "react-bootstrap"
 
-const Navigation = () => {
+const Navigation = ({ global }) => {
     return (
         <Navbar className="navbar-dark" bg="dark" expand="lg">
             <Container>
-                <Navbar.Brand>Release o&apos;clock</Navbar.Brand>
+                <Navbar.Brand href="/">{global.data.attributes.siteName}</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navmenu" />
                 <Navbar.Collapse id="navmenu">
                     <Nav className="ms-auto py-3">
@@ -12,11 +12,11 @@ const Navigation = () => {
                             <NavLink href="/about">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#test2">Test 2</NavLink>
+                            <NavLink href="/services">Services</NavLink>
                         </NavItem>
 
                         <NavItem>
-                            <NavLink href="#test3">Test 3</NavLink>
+                            <NavLink href="/contact">Contact</NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>
