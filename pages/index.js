@@ -20,7 +20,7 @@ const Home = ({ global }) => {
       </main>
 
       <footer className={styles.footer}>
-        <p>Powered by Release o'clock</p>
+        <p>Powered by Release o&apos;clock</p>
       </footer>
     </div>
   )
